@@ -13,4 +13,5 @@ git branch -M main
 
 git push -u origin main
 
-  javac -cp "junit-platform-console-standalone-1.9.2.jar" Calculator.java CalculatorTest.java
+  javac -cp "junit-platform-console-standalone-1.9.2.jar" Calc.java CalcTest.java
+
