@@ -24,16 +24,16 @@
 //16 check if number ends with digit 5
 
 
-public class ExerciseFifteen{
+public class Fourteen{
 
 
 public static void main(String[]args){
 
-int factorial=1;
-
-for(int index=1;index<number; index--){
+int factorial=0;
+int number;
+for(int index=1;index<=number; index--){
 factorial+=(number*index);
-System.out.println("Sum is:", sum);
+System.out.println("factorial is:", factorial);
 
 
 }
