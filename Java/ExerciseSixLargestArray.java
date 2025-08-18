@@ -16,7 +16,7 @@
 //9 print element in an array in reverse order
 //10find max and minimum in ana array usinga loop
 
-import maths.class
+import maths.class;
 public class ExerciseSixLargestArray{
 
 
@@ -24,11 +24,13 @@ public static void main(String[]args){
 for(int index=0;index<11; index++){
 System.out.println(index);
 
-int[]myArray= myArray[n]
+int[]myArray= myArray[n];
 for(int index=0;index<n; index++){
-result=max(myArray[index])
-System.out.println("Maximum is:", max)
+int result=max(myArray[index]);
 
+//sSystem.out.println("all the elements are", myArray + "");
+System.out.println("Maximum is:", result);
+}
 }
 }
 }
