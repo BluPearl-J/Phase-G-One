@@ -15,23 +15,24 @@
 //8 find sum of all elements in an array
 //9 print element in an array in reverse order
 //10find max and minimum in ana array usinga loop
-//11
-//
-//
+//11 write program to sort array without built in functions
+
+//12 writwe program to sort array without creating new variable
+//13 find second largest in an array
+//14 find factorial of a number
+//15 find sum of first natural 100 natural numbers
+//16 check if number ends with digit 5
 
 
-import maths.class;
-public class ExerciseSixLargestArray{
+public class ExerciseSixRepeated{
 
 
 public static void main(String[]args){
-for(int index=0;index<11; index++){
-System.out.println(index);
 
-int[]myArray= myArray[n];
+int[]myArray;
 int max=myArray[0];
-for(int index=0;index<n; index++){
-if (myArray[index]>max)
+for(int index=0;index<myArray.length; index++){
+if (myArray[index]>max){
 
 
 //sSystem.out.println("all the elements are", myArray + "");
