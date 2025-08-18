@@ -18,17 +18,18 @@
 
 
 public class threeDivisibleThree{
+Public static int checkDivisibility (int number){
+if(number%3==0){
+System.out.println("THIS NUMBER IS DIVISIBLE BY 3");
+return(number);
+
+}
 
 public static void main(String[]args){
 threeDivisibleThree.checkDivisibilty(9);
 threeDivisibleThree.checkDivisibility(4);
 checkDivisibility(12);
 
-public static int checkDivisibility (int number){
-if(number%3==0){
-System.out.println("THIS NUMBER IS DIVISIBLE BY 3");
-return(number);
 
-}
 }
 }
