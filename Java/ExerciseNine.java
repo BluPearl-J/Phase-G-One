@@ -24,7 +24,7 @@
 //16 check if number ends with digit 5
 
 
-public class ExerciseSixRepeated{
+public class ExerciseNine{
 
 
 public static void main(String[]args){
