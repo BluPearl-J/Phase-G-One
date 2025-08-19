@@ -18,3 +18,6 @@ def encrypt(number):
     # Ensure it's a 4-digit number
     if not (1000 <= number <= 9999):
         raise ValueError("Enter only a four-digit integer.")
+
+ #convert number to string and each string char back to int
+    digits = [int(d) for d in str(number)]
