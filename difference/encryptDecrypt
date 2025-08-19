@@ -1,0 +1,34 @@
+pseudo:
+//Input four-digit integer (e.g.1500)
+//Transforming each digit:
+//Add 7 to the digit
+//Take the answer modulo 10
+
+Swapping digits
+
+//Swap the 1st with the 3rd
+
+//Swap the 2nd with the 4th
+
+//Output new encrypted number
+
+
+
+def encrypt(number):
+    # Ensure it's a 4-digit number
+    if not (1000 <= number <= 9999):
+        raise ValueError("Enter only a four-digit integer.")
+
+ #convert number to string and each string char back to int
+    digits = [int(d) for d in str(number)]
+
+# Add 7 and mod 10
+    newEncryptedNumber = [(d + 7) % 10 for d in digits]
+
+ 
+
+    #swapping digits 
+    newEncryptedNumber[0], newEncryptedNumber[2] =newEncryptedNumber[2], newEncryptedNumber[0]
+   newEncryptedNumber[1], newEncryptedNumber[3] = newEncryptedNumber[3], newEncryptedNumber[1]
+
+
