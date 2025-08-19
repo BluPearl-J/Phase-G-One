@@ -1,0 +1,20 @@
+pseudo:
+//Input four-digit integer (e.g.1500)
+//Transforming each digit:
+//Add 7 to the digit
+//Take the answer modulo 10
+
+Swapping digits
+
+//Swap the 1st with the 3rd
+
+//Swap the 2nd with the 4th
+
+//Output new encrypted number
+
+
+
+def encrypt(number):
+    # Ensure it's a 4-digit number
+    if not (1000 <= number <= 9999):
+        raise ValueError("Enter only a four-digit integer.")
