@@ -22,6 +22,6 @@ def encrypt(number):
  #convert number to string and each string char back to int
     digits = [int(d) for d in str(number)]
 
-# Step 2: Add 7 and mod 10
+# Add 7 and mod 10
     newEncryptedNumber = [(d + 7) % 10 for d in digits]
 
