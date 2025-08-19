@@ -25,3 +25,10 @@ def encrypt(number):
 # Add 7 and mod 10
     newEncryptedNumber = [(d + 7) % 10 for d in digits]
 
+ 
+
+    #swapping digits 
+    newEncryptedNumber[0], newEncryptedNumber[2] =newEncryptedNumber[2], newEncryptedNumber[0]
+   newEncryptedNumber[1], newEncryptedNumber[3] = newEncryptedNumber[3], newEncryptedNumber[1]
+
+
