@@ -18,8 +18,6 @@ public static boolean isTwiceOld(int ageSon, int ageFather) {
 for (int minimumAgeDifferencei = 13; minimumAgeDifferencei < 100; minimumAgeDifferencei++) {
 ageSon = minimumAgeDifferencei;
 if (ageFather ==2*ageSon) {
-       
-
 System.out.println("At this age, father twice as old " + ageSon  );
 return true;
 }
@@ -28,6 +26,5 @@ System.out.println("Father age is not twice that of son " + ageSon);
 }
 return false;
 }
-
 }
 }
