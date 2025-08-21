@@ -2,8 +2,9 @@ import java.util.Scanner;
 
 public class GroceryManagerOne {
     static String[] groceryList;
-   // pg 338, 337 liang 
+    // pg 338, 337 liang 
     static int itemCount = 0;
+    //The number of objects created 
 
 public static void addItem() {
 Scanner input = new Scanner(System.in);
