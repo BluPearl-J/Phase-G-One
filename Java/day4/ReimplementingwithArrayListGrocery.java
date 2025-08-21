@@ -2,8 +2,8 @@ import java.util.ArrayList;
 
 import java.util.scanner;
 
-public class GroceryManager {
-String [] groceryList = new String[totalInitialLength]; 
+public class AttemptingArrayListGrocery {
+ArrayList<String> groceryList = new ArrayList<>();
 
 public static void addItem(String items) {
 System.out.print("Enter the number of grocery items: ");
