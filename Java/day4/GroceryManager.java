@@ -69,15 +69,15 @@ switch (answerSelected) {
 case "1":
 System.out.print("Enter item to add: ");
 String addItem = scanner.nextLine();
-groceryManager.addItem(addItem);
+GroceryManager.addItem(addItem);
 break;
 case "2":
 System.out.print("Enter item to remove: ");
 String removeItem = scanner.nextLine();
-groceryManager.removeItem(removeItem);
+GroceryManager.removeItem(removeItem);
 break;
 case "3":
-groceryManager.showItems();
+GroceryManager.showItems();
 break;
 case "0":
 System.out.println("Goodbye");
