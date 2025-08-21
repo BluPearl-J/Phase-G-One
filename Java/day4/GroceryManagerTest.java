@@ -6,15 +6,15 @@ public class GroceryManagerTest {
 @Test
 public void testAddItems() {
 String[] items = {"Juice", "Bread", "Eggs"};
-GroceryManager.addItems(items);
+GroceryManagerOne.addItems(items);
 assertArrayEquals(items, GroceryManager.getItems());
 }
 
 @Test
 public void testRemoveItem() {
 String[] items = {"Juice", "Bread", "Eggs"};
-GroceryManager.addItems(items);
-GroceryManager.removeItem("Bread");
+GroceryManagerOne.addItems(items);
+GroceryManagerOne.removeItem("Bread");
 String[] expected = {"Juice", null, "Eggs"};
 assertArrayEquals(expected, GroceryManager2.getItems());
 }
