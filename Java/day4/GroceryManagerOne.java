@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class GroceryManagerOne {
     static String[] groceryList;
-   // pg 338 liang 
+   // pg 338, 337 liang 
     static int itemCount = 0;
 
 public static void addItem() {
