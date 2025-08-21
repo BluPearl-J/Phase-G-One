@@ -17,6 +17,8 @@ System.out.print("Enter your " + groceryList.length + " values: ");
 for (int i = 0; i < groceryList.length; i++) 
 groceryList[i] = input.nextString();
 groceryList.add(item);
+int itemCount=0;
+itemCount++;
 System.out.println("" + item + "added to grocery list.");
 
 
