@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class GroceryManagerOne {
     static String[] groceryList;
     // pg 338, 337 liang 
+    //listing 9.6 liang pg 338 static variabl
     static int itemCount = 0;
     //The number of objects created 
 
