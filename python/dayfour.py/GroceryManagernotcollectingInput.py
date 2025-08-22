@@ -16,3 +16,4 @@ def show_items():
         return "Grocery list is empty."
     else:
         return [f"{idx}. {item}" for idx, item in enumerate(grocery_list, start=1)]
+        #function value passed not from user
