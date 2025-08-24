@@ -28,4 +28,3 @@ return bleedingDays;
 }
 
 
-//Count how many Digits are in a given Number
