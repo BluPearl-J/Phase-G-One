@@ -23,7 +23,6 @@ addMoreItems = false;
 break;
 
 case "NO":
-getCustomersPurchaseDetail(name1, product, numberBought, pricePerUnitNGN);
 System.out.println("Goodbye");
 break;
 
