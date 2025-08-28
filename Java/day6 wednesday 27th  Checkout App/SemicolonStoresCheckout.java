@@ -1,4 +1,5 @@
 
+
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,13 +25,6 @@ boolean addMoreItems = true;
 while (addMoreItems) {
 System.out.println("Enter product bought:");
 items.add(input.nextLine());
-
-<<<<<<< HEAD
-=======
-case "NO":
-System.out.println("Goodbye");
-break;
->>>>>>> 5bd6406b813542cdc95cb19b9b677773952584c2
 
 System.out.println("Enter quantity:");
 quantities.add(Integer.parseInt(input.nextLine()));
