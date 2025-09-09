@@ -20,8 +20,7 @@ System.out.println("Enter Teachers name:");
 String teacherName = input.nextLine();
 
 System.out.println("How many students do you have?:");
-int numberOfStudents = (input.nextInt());
-input.nextLine(); // ← added to fix input skipping issue
+int numberOfStudents = Integer.parse(input.nextLine()); 
 
 System.out.println("How many subjects does each student offer?");
 int numberOfSubjects = Integer.parseInt(input.nextLine());
@@ -154,4 +153,5 @@ System.out.println(studentTotalScores.get(i) + "\t" + studentAverageScores.get(i
         System.out.println("\nTHANK YOU FOR USING LAGBAJA SCHOOL SYSTEM!");
     }
 }
+
 
