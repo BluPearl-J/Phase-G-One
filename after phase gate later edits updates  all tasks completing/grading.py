@@ -1,7 +1,7 @@
 
 from datetime import date, datetime
 
-# Main program
+# theMain 
 subjects = []
 scores = []
 studentNames = []
@@ -118,5 +118,6 @@ for subjectIndex in range(numberOfSubjects):
     print("---------------------")
 
 print("\nTHANK YOU FOR USING LAGBAJA SCHOOL SYSTEM!")
+
 
 
