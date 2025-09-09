@@ -20,7 +20,7 @@ System.out.println("Enter Teachers name:");
 String teacherName = input.nextLine();
 
 System.out.println("How many students do you have?:");
-int numberOfStudents = Integer.parse(input.nextLine()); 
+int numberOfStudents = Integer.parseInt(input.nextLine()); 
 
 System.out.println("How many subjects does each student offer?");
 int numberOfSubjects = Integer.parseInt(input.nextLine());
@@ -36,7 +36,7 @@ System.out.println("\nENTERING SCORES FOR STUDENT NUMBER#" + (i + 1));
 
 System.out.println("Enter name of student #" + (i + 1) + ":");
 String currentStudentName = input.nextLine();
-sstudentNames.add(currentStudentName);
+studentNames.add(currentStudentName);
 
 int totalScore = 0;
 
@@ -153,5 +153,6 @@ System.out.println(studentTotalScores.get(i) + "\t" + studentAverageScores.get(i
         System.out.println("\nTHANK YOU FOR USING LAGBAJA SCHOOL SYSTEM!");
     }
 }
+
 
 
