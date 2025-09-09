@@ -56,7 +56,7 @@ public class Checkout {
         System.out.println("\n" + title);
         System.out.println("Date: " + LocalDate.now());
         System.out.println("Time: " + LocalTime.now());
-        System.out.println("Cashier: " + cashierName); // 🌸 Added cashier name
+        System.out.println("Cashier: " + cashierName);
         System.out.println("Customer: " + customerName);
         System.out.println();
 
