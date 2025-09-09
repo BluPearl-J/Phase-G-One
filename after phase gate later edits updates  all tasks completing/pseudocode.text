@@ -1,0 +1,85 @@
+
+Create empty arraylists for:
+    - subjects
+    - scores
+    - student names
+    - total scores
+    - average scores
+
+Ask the user to enter the name of the teacher using the system
+Save the name
+
+Ask how many total students are in the class
+Save the numberof students
+
+Ask how many subjects each student offers
+Save the number of subjects
+
+FOR each subject from 1 to total number of subjects:
+    Ask for the name of each subject
+    Add the subject name to the subject arraylist
+
+FOR each student from 1 to number of students:
+    Show message: "Entering scores for student #i"
+
+    Ask for the student's name
+    Add the name to the student arraylist
+
+    Set total score to 0
+
+    FOR each subject:
+        Ask for the score in that subject
+        Add the score to the scores list
+        Add the score to the student's total score
+
+    Calculate average score = total score ÷ number of subjects
+    Add total and average to their respective lists
+
+    Show message: "Saving..."
+    Show message: "Saved successfully"
+
+END student loop
+
+Close the input
+
+DISPLAY CLASS SUMMARY:
+    Show student name, current date, and time
+
+    FOR each student:
+        Compare their total score with others to calculate position
+        (Higher score = better position)
+
+    Print a table with:
+        - Student name
+        - Each subject score
+        - Total score
+        - Average score
+        - Position
+
+DISPLAY SUBJECT ANALYSIS:
+    FOR each subject:
+        Set highest and lowest scores to start
+        Set total score, passes, and fails to 0
+
+        FOR each student:
+            Get the score for this subject
+            Add to total
+            If score ≥ 50, count as pass
+            If score < 50, count as fail
+            Update highest and lowest scores and student names
+
+        Calculate average score = total ÷ number of students
+
+        Show:
+            - Subject name
+            - Highest scoring student
+            - Lowest scoring student
+            - Total score
+            - Average score
+            - Number of passes
+            - Number of fails
+
+END PROGRAM
+
+
+
